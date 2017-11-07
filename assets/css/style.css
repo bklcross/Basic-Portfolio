@@ -3,27 +3,24 @@ body
 	background-image: url('../images/concrete_seamless.png');
 }
 
-nav
-{
-	box-sizing: border-box;
-	border-bottom: 10px;
-	border-color: green;
-	background-color: teal;
-}
-
 header
 {
-	box-sizing: border-box;
-	margin: 25px;
-	padding: 25px;
-	background-color: lightblue;
-	text-align: center;
+	padding-right: 25px;
+	padding-left: 25px;
+	background-color: pink;
+}
+
+.name
+{
+	padding-top: 25px;
+	padding: bottom 25px;
+	background-color: teal;
 	width: 200px;
-	font-size: 30px;
-	font-weight: bold;
+	text-align: center;
+	padding-bottom: 25px;
+	margin-left: 100px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	display: flex;
-	justify-content: flex-start;
+	font-size: 30px;
 }
 
 .tabs
